@@ -1,5 +1,4 @@
 # Rock Paper Scissors
-
 import random
 
 
