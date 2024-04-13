@@ -1,6 +1,6 @@
 # 100 days of Code - Python
 
-This repository contains my solutions for the projects included in the [Python course "100 Days of Code - The Complete Python Pro Bootcamp for 2023" by Dr. Angela Yu on Udemy.](https://www.udemy.com/course/100-days-of-code/)
+This repository contains my solutions for the projects included in the Python course ["100 Days of Code - The Complete Python Pro Bootcamp for 2023" by Dr. Angela Yu on Udemy.](https://www.udemy.com/course/100-days-of-code/)
 
 ## Learning Path
 
@@ -11,7 +11,7 @@ The course is designed to be completed over 100 days.  Each folder represents a 
 
 ### Day 1 - Working with Variables in Python to Manage Data
 
-Project: Band Name Generator
+Project: [Band Name Generator](day1)
 
 ### Day 2 - Understanding Data Types and How to Manipulate Strings
 
