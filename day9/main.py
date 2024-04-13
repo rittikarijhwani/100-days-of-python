@@ -10,10 +10,9 @@ bidding_over = False
 while not bidding_over:
     # unclear whether multiple bids by the same person should be allowed
     # and whether it's possible for a subsequent bid by the same person to be LOWER than their previous one
-    print("What's your name?")
     # so, just check if there's already a bid with that name (keep it case sensitive)
     while True:
-        name = input("> ")
+        name = input("What's your name? > ").lower()
         # reject an empty input
         if name == "":
             print("Please enter a name.")
@@ -23,10 +22,9 @@ while not bidding_over:
         else:
             break
 
-    print("What is your bid?")
     # make sure it's a valid amount (no cents, to keep it simple)
     while True:
-        bid_str = input("> $")
+        bid_str = input("What is your bid? > $")
         if bid_str == "0":
             print("$0 is not a proper bid. Please try again.")
         elif not bid_str.isdigit():
@@ -38,16 +36,12 @@ while not bidding_over:
     # add to the dictionary, already made sure it's a new key
     bids[name] = bid
 
-    print("Are there any other bidders? Type \"yes\" or \"no\".")
-    choice = input("> ").lower()
+    choice = input("Are there any other bidders? Type \"yes\" or \"no\". > ").lower()
 
     # skip checking the input, just keep going until "no" is entered
     if choice == "no":
         bidding_over = True
 
-    # since the "replit" module is not available and there doesn't seem to be a simple way to clear the screen that
-    # would RELIABLY work on different platforms, i.e. "import os" AND "os.system("clear")" OR "os.system("cls")" ...
-    # ... just print a bunch of blank lines instead, both between each bid and at the end
     print("\n" * 100)
 
 # find the highest bid
