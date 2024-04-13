@@ -52,7 +52,7 @@ Project: [Secret Auction](day9)
 Project: [Calculator](day10)
 
 ### Day 11 - The Blackjack Capstone Project
-Project: Blackjack
+Project: [Blackjack](day11)
 
 ### Day 12 - Scope & Number Guessing Game
 Project: Guess the Number
