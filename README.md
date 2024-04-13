@@ -28,10 +28,15 @@ Project: [Password Generator](day5)
 
 ### Day 6 - Python Functions & Karel
 Project: Reeborg's World: Hurdle 1
+
 Project: Reeborg's World: Hurdle 2
+
 Project: Reeborg's World: Hurdle 3
+
 Project: Reeborg's World: Hurdle 4
+
 Project: Reeborg's World: Maze
+
 [Reeborg's World](day6)
 
 ### Day 7 - Hangman
