@@ -15,16 +15,16 @@ Project: [Band Name Generator](day1)
 
 ### Day 2 - Understanding Data Types and How to Manipulate Strings
 
-Project: Tip Calculator
+Project: [Tip Calculator](day2)
 
 ### Day 3 - Control Flow and Logical Operators
-Project: Treasure Island
+Project: [Treasure Island](day3)
 
 ### Day 4 - Randomisation and Python Lists
-Project: Rock Paper Scissors
+Project: [Rock Paper Scissors](day4)
 
 ### Day 5 - Python Loops
-Project: Password Generator
+Project: [Password Generator](day5)
 
 ### Day 6 - Python Functions & Karel
 Project: Reeborg's World: Hurdle 1
@@ -32,18 +32,19 @@ Project: Reeborg's World: Hurdle 2
 Project: Reeborg's World: Hurdle 3
 Project: Reeborg's World: Hurdle 4
 Project: Reeborg's World: Maze
+[Reeborg's World](day6)
 
 ### Day 7 - Hangman
-Project: Hangman
+Project: [Hangman](day7)
 
 ### Day 8 - Function Parameters & Caesar Cipher
-Project: Caesar Cipher
+Project: [Caesar Cipher](day8)
 
 ### Day 9 - Dictionaries, Nesting and the Secret Auction
-Project: Secret Auction
+Project: [Secret Auction](day9)
 
 ### Day 10 - Functions with Outputs
-Project: Calculator
+Project: [Calculator](day10)
 
 ### Day 11 - The Blackjack Capstone Project
 Project: Blackjack
