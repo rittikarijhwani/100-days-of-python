@@ -1,7 +1,6 @@
-
 # 100 days of Code - Python
 
-This repository contains my solutions for the projects included in the Python course "100 Days of Code - The Complete Python Pro Bootcamp for 2023" by Dr. Angela Yu on Udemy.
+This repository contains my solutions for the projects included in the [Python course "100 Days of Code - The Complete Python Pro Bootcamp for 2023" by Dr. Angela Yu on Udemy.](https://www.udemy.com/course/100-days-of-code/)
 
 ## Learning Path
 
