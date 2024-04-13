@@ -11,11 +11,9 @@ def divide(n1, n2):
 
 # prints available operations, in a single line, to make it look nicer
 def list_operations():
-    text = "Available operations: "
     for key in operations:
         # this will also add an extra space at the end of the string, but it doesn't really matter
-        text += key + " "
-    print(text)
+        print(key + " ")
 
 # get the inputs and make sure they are valid
 # using a single function for both numbers (returns a FLOAT) and the symbols (returns a STR)
@@ -65,9 +63,7 @@ result = 0
 while True:
     # only executed at the first run, or when the user chooses "new calculation"
     if new_calculation:
-        print(art.logo)
-        print("What's the first number?")
-        num1 = get_input()
+        num1 = int(input("What's the first number? "))
     else:
         num1 = result
 
@@ -75,13 +71,13 @@ while True:
     # made it a function so it can be called from elsewhere too
     list_operations()
 
-    print("Pick an operation from the above line:")
-    symbol = get_input(is_symbol=True)
+    print(" ")
+    symbol = input("Pick an operation from the above list: ")
+    is_symbol=True
 
     # get the second number, but make sure it's not 0 if division was selected
-    print("What's the next number?")
     while True:
-        num2 = get_input()
+        num2 = int(input("What's the next number? "))
         if symbol == "/" and num2 == 0:
             print("You have chosen to divide by zero. Please input a non-zero number.")
         else:
@@ -91,9 +87,8 @@ while True:
     result = operations[symbol](num1, num2)
     print(f"{num1} {symbol} {num2} = {result}")
 
-    print(f"Type \"y\" to continue calculating with {result}, or type \"n\" to start a new calculation. "
-          f"Anything else will exit the program.")
-    choice = input("> ")
+    choice = input(f"Type \"y\" to continue calculating with {result}, or type \"n\" to start a new calculation. "
+          f"Anything else will exit the program." ).lower()
     if choice == "y":
         # continue to next iteration using "result" as num1
         new_calculation = False
