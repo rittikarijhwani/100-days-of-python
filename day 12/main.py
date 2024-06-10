@@ -91,7 +91,7 @@ while True:
     # REQUIREMENT: BOOL
     testing_mode = False
 
-    print("Welcome to the Number Guessing Game!\n")
+    print("Welcome to the Number Guessing Game!!\n")
     print(f"I'm thinking of a number between {num_from} and {num_to}.")
     attempts = choose_difficulty(attempts_dict)
 
