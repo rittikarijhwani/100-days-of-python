@@ -61,7 +61,7 @@ Project: [Guess the Number](day12)
 Project: [Debugging](day13)
 
 ### Day 14 - Higher Lower Game Project
-Project: Higher Lower Game
+Project: [Higher Lower Game](day14)
 
 ### Day 15 - Local Development Environment Setup & the Coffee Machine
 Project: Coffee Machine
