@@ -58,7 +58,7 @@ Project: [Blackjack](day11)
 Project: [Guess the Number](day12)
 
 ### Day 13 - Debugging: How to Find and Fix Errors in your Code
-Project: Debugging
+Project: [Debugging](day13)
 
 ### Day 14 - Higher Lower Game Project
 Project: Higher Lower Game
