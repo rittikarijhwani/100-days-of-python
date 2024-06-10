@@ -1,10 +1,6 @@
 # Higher Lower Game
-
 from random import randint
-
-import art
 import game_data as gd
-
 
 def play():
     """Play a round."""
@@ -17,15 +13,12 @@ def play():
         # get another dict and its index, make sure it's not the same one
         dict_b, index_b = get_entry(exclude_one=True, excluded_index=index_a)
 
-        print(art.logo)
-        # odd place to put this, but since since this is where the exercise wants this...
         # only display if the player passes the first round
         if score > 0:
             print(f"You're right! Current score: {score}.")
         # print values from dict_a
         # these might not be always grammatically correct, e.g. "a Actor"
         print(f"Compare A: {dict_a['name']}, a {dict_a['description']} from {dict_a['country']}.")
-        print(art.vs)
         # print values from dict_b
         print(f"Against B: {dict_b['name']}, a {dict_b['description']} from {dict_b['country']}.")
 
@@ -38,15 +31,15 @@ def play():
         # this doesn't seem to be the case now, but just in case changes are made to the data in the future
         if dict_a["follower_count"] == dict_b["follower_count"]:
             # unclear what to do when their numbers are identical, so just accept anything as correct
-            score += 1
+            score = score + 1
         elif dict_a["follower_count"] > dict_b["follower_count"]:
             if choice == "A":
-                score += 1
+                score = score + 1
             else:
                 is_game_over = True
         elif dict_a["follower_count"] < dict_b["follower_count"]:
             if choice == "B":
-                score += 1
+                score = score + 1
             else:
                 is_game_over = True
 
@@ -58,9 +51,7 @@ def play():
         print("\n" * 100)
 
     # once the player loses
-    print(art.logo)
     print(f"Sorry that's wrong. Final score: {score}.\n")
-
 
 def get_entry(exclude_one=False, excluded_index=0):
     """Returns a randomly picked entry and its index as a tuple of DICT and INT, other than the one matching
@@ -74,7 +65,6 @@ def get_entry(exclude_one=False, excluded_index=0):
         chosen_dict = gd.data[chosen_index]
     return chosen_dict, chosen_index
 
-
 def get_input(choices_list):
     """Gets input from the user, returns it as STR. Only accepts choices from the provided list."""
     while True:
@@ -87,7 +77,6 @@ def get_input(choices_list):
             print(f"Invalid choice. Please type {' or '.join(formatted_list)}.")
         else:
             return user_choice
-
 
 # main loop
 while True:
