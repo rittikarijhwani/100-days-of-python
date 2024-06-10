@@ -55,7 +55,7 @@ Project: [Calculator](day10)
 Project: [Blackjack](day11)
 
 ### Day 12 - Scope & Number Guessing Game
-Project: Guess the Number
+Project: [Guess the Number](day12)
 
 ### Day 13 - Debugging: How to Find and Fix Errors in your Code
 Project: Debugging
